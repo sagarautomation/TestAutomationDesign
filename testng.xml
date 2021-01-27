@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/TestAutomationDesign/src/main/Parallel">
+        <classes>
+            <class name="Parallel.">
+                <methods>
+                    <include name="testA"/>
+                    <include name="testB"/>
+                </methods>
+            </class>
+            <class name="Parallel.TestClass2">
+                <methods>
+                    <include name="testA"/>
+                    <include name="testB"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
